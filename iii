@@ -63,19 +63,19 @@ fin='\033[01;37m'
 
 inici0 () {
 	echo ""
-	cd ..
-	cd usr
-	cd etc
+
+	cd /data/data/com.termux/files/usr/etc
 	rm -f motd
 rm -f bash.bashrc
 	cd
+	cd t99
 	mv bash.bashrc /data/data/com.termux/files/usr/etc
 
 
-termux-setup-storage
 
-pkg update
-apt update 
+
+pkg update -y
+apt update -y
 
 
 pkg install curl  -y
@@ -94,18 +94,21 @@ pkg install wget -y
 pkg install python -y 
 pkg install python3 -y
 
-pip install --upgrade pip
+pip install --upgrade pip -y
 
-pkg i ffmpeg
+pkg i ffmpeg -y
 pip install mpv
 
 pip install -U youtube_dl
 
 cd /data/data/com.termux/files/usr/etc/nginx
-rm -f nginx-conf
+rm -f nginx.conf
 cd
-mv nginx-conf /data/data/com.termux/files/usr/etc/nginx
-
+cd t99 
+mv nginx.conf /data/data/com.termux/files/usr/etc/nginx
+mv 99 /data/data/com.termux/files
+	cd
+	termux-setup-storage
 } 
 
 #read varr
