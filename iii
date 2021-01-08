@@ -106,7 +106,7 @@ rm -f nginx.conf
 cd
 cd t99 
 mv nginx.conf /data/data/com.termux/files/usr/etc/nginx
-mv 99 /data/data/com.termux/files
+mv 99 /data/data/com.termux/files/home
 	cd
 	termux-setup-storage
 } 
