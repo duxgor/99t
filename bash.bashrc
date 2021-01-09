@@ -44,6 +44,8 @@ alias ls='echo "" && ls -tF --color=aut'
     alias ncat='sh  /data/data/com.termux/files/home/99/00/ncat'
       alias bdoor='sh /data/data/com.termux/files/home/99/00/ntc'
 
+     alias 3n='ccrypt -e'
+     alias d3='ccrypt -d'
      alias co='tar -cvf'
      alias de='tar -xvf'
     alias ld='ls -d */'
