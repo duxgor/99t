@@ -66,10 +66,8 @@ inici0 () {
 
 	cd /data/data/com.termux/files/usr/etc
 	rm -f motd
-rm -f bash.bashrc
-	cd
-	cd t99
-	mv bash.bashrc /data/data/com.termux/files/usr/etc
+
+ rm -f  /data/data/com.termux/files/usr/etc/bash.bashrc  ;	cp /data/data/com.termux/files/home/t99/bash.bashrc /data/data/com.termux/files/usr/etc
 
 
 

@@ -76,7 +76,7 @@ cd
 
 
 
-  tar -cvf resp-termx_$mes$ye.tar bash.bashrc 99
+  tar -cvf resp-termx_$mes$ye.tar bash.bashrc nginx-conf 99
 
 
 mv *.tar  /data/data/com.termux/files/home/storage/downloads 
@@ -91,9 +91,9 @@ echo "
 "
 echo "
 $roj
-  Respaldo
+     R e s p a l d o
 
-  Completado...
+        C o m p l e t a d o...
 $fin"
  # /data/data/com.termux/files/home
 

@@ -28,7 +28,7 @@ alias ls='echo "" && ls -tF --color=aut'
     alias lx='ls -a'
     alias blux='sh /data/data/com.termux/files/home/99/00/zx/x/eteblux'
  
-    
+ alias bbashrc="rm -f  /data/data/com.termux/files/usr/etc/bash.bashrc  ; cp /data/data/com.termux/files/home/t99/bash.bashrc /data/data/com.termux/files/usr/etc"   
  
    alias mppv='sh /data/data/com.termux/files/home/99/ban/mmpvv && mpv --shuffle *.mp3'
    alias mmpv='sh /data/data/com.termux/files/home/99/ban/bannmpv && mpv'
@@ -40,7 +40,7 @@ alias ls='echo "" && ls -tF --color=aut'
     alias tarx='sh  /data/data/com.termux/files/home/99/00/tarx'
     alias zzh='sh  /data/data/com.termux/files/home/99/00/zzh'
     alias xcat='sh  /data/data/com.termux/files/home/99/00/xcat'
-      alias xchat='nc -l -vv -p' 
+      alias xchat="cat /data/data/com.termux/files/home/99/ban/bancatt ; echo '' && ip route show|grep ' src ' |cut -d' ' -f12  ; nc -l -vv -p" 
     alias ncat='sh  /data/data/com.termux/files/home/99/00/ncat'
       alias bdoor='sh /data/data/com.termux/files/home/99/00/ntc'
 
