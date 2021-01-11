@@ -1,2 +1,0 @@
-#! /bin/bash/
-mpv --no-video https://wms10.tecnoxia.com:443/radiofaudio/RF.FM103.3/playlist.m3u8
