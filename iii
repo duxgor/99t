@@ -95,10 +95,10 @@ pkg install python3 -y
 pip install --upgrade pip -y
 
 pkg i ffmpeg -y
-pip install mpv
+
 
 pip install -U youtube_dl
-
+pip install mpv
 cd /data/data/com.termux/files/usr/etc/nginx
 rm -f nginx.conf
 cd
