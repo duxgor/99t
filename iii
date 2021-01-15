@@ -92,13 +92,18 @@ pkg install wget -y
 pkg install python -y 
 pkg install python3 -y
 
-pip install --upgrade pip -y
+python3 -m pip install --upgrade pip
 
 pkg i ffmpeg -y
 
 
 pip install -U youtube_dl
 pip install mpv
+pkg install mpv -y
+pkg i ffmpeg -y
+pip install -U youtube_d
+
+
 cd /data/data/com.termux/files/usr/etc/nginx
 rm -f nginx.conf
 cd

