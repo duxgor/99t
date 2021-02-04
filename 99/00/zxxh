@@ -10,22 +10,9 @@ echo "
 
   ᄃӨПΣXi0П $ama
     丂丂卄 $fin
+ 
+
+ Red Local
 
 "
-echo -n " 192.168."
-read ipo
-#echo "
-
-
-#?Usuario para entrar"
-#echo -n "  └────────┤> "
-#read uxx
-
-echo "
-
-"
-#echo -n "PuertO::::: "
-#read pue
-#clear
-
-ssh -p 666 weed@192.168.$ipo 
+ssh -p 666 weed@192.168.43.29

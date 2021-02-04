@@ -21,18 +21,12 @@ gri='\e[2m'
 
 fin='\033[01;37m'
 clear
+echo "
+       ░B Λ ᄃ K  D Ө Ө Я"
 
  cat /data/data/com.termux/files/home/99/ban/bandoor    
- read -p "        Ip - BackDoor💀:" kkk
-echo "$fin"   
- read -p "###Puerto: " klk     
-echo "            #################################|"    
- echo "  ### \e[1;33mAbriendo ConeX!on de Tunnel\e[0m >>>> "
-echo "            #################################|"     
-                                    sleep s
-           nc -vn $kkk $klk      
-  echo ""
-sleep 2s
-echo "|#######################"
-echo ">>>>\e[1;31mConexion de Tunnel Cerrada....\e[0m" 
-echo "|#######################"
+echo "$roj
+      A ʙ ʀ ɪ ᴇ ɴ ᴅ ᴏ   C ᴏ ɴ ᴇ x ɪ ᴏ ɴ . . .
+$fin
+ C o ∏$ama   T ᑌ ᑎ ᑎ E ᒪ ... $fin
+         ┌──────┤📂"

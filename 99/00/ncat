@@ -1,32 +1,20 @@
-#! /bin/bash/
+#!/data/data/com.termux/files/usr/bin/bash
 
 ama='\033[33m'
 
-
+ip="$(ip route show|grep ' src ' |cut -d' ' -f12)"
 fin='\033[01;37m'
 
 
-echo "
-$ama
- ＣｏｎｅＸｉｏｎ：：：
-
-       ᑎETᑕᗩT
-$fin"
-cat /data/data/com.termux/files/home/99/ban/bancatt
+# cat /data/data/com.termux/files/home/99/ban/bancatt
 
 echo "
-  卩ㄩ乇尺ㄒㄖ:"
-echo -n "└────┤ "
-read po
-clear
-echo "
-
 
 $ama
  ＣｏｎｅＸｉｏｎ：：：
 
        ᑎETᑕᗩT
+
+ ::$ip    
 $fin"
 cat /data/data/com.termux/files/home/99/ban/bancat2
-
-nc -n -v -l -p $po -e /data/data/com.termux/files/usr/bin/bash

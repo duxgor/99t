@@ -26,5 +26,8 @@ echo "
 #echo -n "PuertO::::: "
 #read pue
 #clear
+ 
+ #  
+#   ssh -p 666 weed@xg0r.sytes.net 
 
-ssh -p 666 weed@xg0r.sytes.net 
+

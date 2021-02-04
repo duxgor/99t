@@ -1,4 +1,4 @@
-#! /bin/bash/
+#!/data/data/com.termux/files/usr/bin/bash
 ############  Colores  #################
 rojff='\033[1;31m'
 rojx='\e[101m'
@@ -57,6 +57,9 @@ xcc="$(date +'99%S')"
 toilet --metal -f future netcat...	
 echo ""
 cat /data/data/com.termux/files/home/99/ban/bancatt
+echo "
+ $ip
+"
 nc -n -v -l -p $xcc -e /data/data/com.termux/files/usr/bin/bash
 inici0
 } 
