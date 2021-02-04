@@ -67,7 +67,6 @@ inici0 () {
 	cd /data/data/com.termux/files/usr/etc
 	rm -f motd
 
- rm -f  /data/data/com.termux/files/usr/etc/bash.bashrc  ;	cp /data/data/com.termux/files/home/t99/bash.bashrc /data/data/com.termux/files/usr/etc
 
 
 
@@ -105,6 +104,8 @@ cd
 cd t99 
 mv nginx.conf /data/data/com.termux/files/usr/etc/nginx
 mv 99 /data/data/com.termux/files/home
+ rm -f  /data/data/com.termux/files/usr/etc/bash.bashrc  ;	cp /data/data/com.termux/files/home/t99/bash.bashrc /data/data/com.termux/files/usr/etc
+
 	cd
 	termux-setup-storage
 } 
