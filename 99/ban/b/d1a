@@ -52,11 +52,11 @@ echo "#!/data/data/com.termux/files/usr/bin/bash" >> /data/data/com.termux/files
 
 ######## Madrugada
 echo "alias 00='sh /data/data/com.termux/files/home/99/ban/b/banpentester'" >> /data/data/com.termux/files/home/99/0/az
-echo "alias 01='sh /data/data/com.termux/files/home/99/ban/b/noche'" >> /data/data/com.termux/files/home/99/0/az
+echo "alias 01='sh /data/data/com.termux/files/home/99/ban/b/noche2'" >> /data/data/com.termux/files/home/99/0/az
 echo "alias 02='sh /data/data/com.termux/files/home/99/ban/b/banpentester'" >> /data/data/com.termux/files/home/99/0/az
 echo "alias 03='sh /data/data/com.termux/files/home/99/ban/b/noche'" >> /data/data/com.termux/files/home/99/0/az
 echo "alias 04='sh /data/data/com.termux/files/home/99/ban/b/banpentester'" >> /data/data/com.termux/files/home/99/0/az
-echo "alias 05='sh /data/data/com.termux/files/home/99/ban/b/noche'" >> /data/data/com.termux/files/home/99/0/az
+echo "alias 05='sh /data/data/com.termux/files/home/99/ban/b/noche2'" >> /data/data/com.termux/files/home/99/0/az
 echo "alias 06='sh /data/data/com.termux/files/home/99/ban/b/ban-crann'" >> /data/data/com.termux/files/home/99/0/az
 
 ########## Mañana
@@ -72,15 +72,16 @@ echo "alias 13='sh /data/data/com.termux/files/home/99/ban/b/tarde'" >> /data/da
 echo "alias 14='sh /data/data/com.termux/files/home/99/ban/b/ban-crann'" >> /data/data/com.termux/files/home/99/0/az
 echo "alias 15='sh /data/data/com.termux/files/home/99/ban/b/tarde'" >> /data/data/com.termux/files/home/99/0/az
 echo "alias 16='sh /data/data/com.termux/files/home/99/ban/b/ban-crann'" >> /data/data/com.termux/files/home/99/0/az
-
+echo "alias 17='sh /data/data/com.termux/files/home/99/ban/b/ban-crann'" >> /data/data/com.termux/files/home/99/0/az
 ######### Crepusculo
-echo "alias 17='sh /data/data/com.termux/files/home/99/ban/b/crepusculo'" >> /data/data/com.termux/files/home/99/0/az
+
 echo "alias 18='sh /data/data/com.termux/files/home/99/ban/b/crepusculo'" >> /data/data/com.termux/files/home/99/0/az
+echo "alias 19='sh /data/data/com.termux/files/home/99/ban/b/crepusculo'" >> /data/data/com.termux/files/home/99/0/az
 
 #########  noche 
-echo "alias 19='sh /data/data/com.termux/files/home/99/ban/b/noche'" >> /data/data/com.termux/files/home/99/0/az
+
 echo "alias 20='sh /data/data/com.termux/files/home/99/ban/b/banpentester'" >> /data/data/com.termux/files/home/99/0/az
-echo "alias 21='sh /data/data/com.termux/files/home/99/ban/b/noche'" >> /data/data/com.termux/files/home/99/0/az
+echo "alias 21='sh /data/data/com.termux/files/home/99/ban/b/noche2'" >> /data/data/com.termux/files/home/99/0/az
 echo "alias 22='sh /data/data/com.termux/files/home/99/ban/b/ban-crann'" >> /data/data/com.termux/files/home/99/0/az
 echo "alias 23='sh /data/data/com.termux/files/home/99/ban/b/noche'" >> /data/data/com.termux/files/home/99/0/az
 
